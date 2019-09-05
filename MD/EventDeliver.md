@@ -8,10 +8,10 @@
 <br/>Are not events, but they may still take advantage of responder chain.When the target object of a control is nil, UIKit starts from the target object and traverses the responder chain until it finds an object that implements the appropriate action method.   
 <br/>编辑菜单消息(长按选择某段文字弹出的菜单栏).当指定的target为空的时候，UIKit会顺着响应链寻找合适的target去处理action。这里合适的target是指响应者链上实现了cut(_:), copy(_:), or paste(_:)的responder。
 * Touch & Press(3D Touch, iOS9.0+)
-* controls
-<br/>Controls communicate directly with their associated target object using action messages. When the user interacts with a control, the control sends an action message to its target object. Action messages are not events, but they may still take advantage of the responder chain. When the target object of a control is nil, UIKit starts from the target object and traverses the responder chain until it finds an object that implements the appropriate action method.
+   * controls
+   <br/>Controls communicate directly with their associated target object using action messages. When the user interacts with a control, the control sends an action message to its target object. Action messages are not events, but they may still take advantage of the responder chain. When the target object of a control is nil, UIKit starts from the target object and traverses the responder chain until it finds an object that implements the appropriate action method.
 <br/> 控件使用action messages直接与关联的target联系。当用户与控件交互时，控件发送action messages到target。action messages不是事件，但它们可能会利用响应者链。当target是nil时，UIKit开始从响应者链上寻找合适的响应者。
-* Gesture
-<br/>Gesture recognizers receive touch and press events before their view does. If a view's gesture recognizers fail to recognize a sequence of touches, UIKit sends the touches to the view. If the view does not handle the touches, UIKit passes them up the responder chain.[More](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures)
+   * Gesture
+   <br/>Gesture recognizers receive touch and press events before their view does. If a view's gesture recognizers fail to recognize a sequence of touches, UIKit sends the touches to the view. If the view does not handle the touches, UIKit passes them up the responder chain.[More](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/handling_uikit_gestures)
 <br/>手势识别在view之前接收到touch和press。如果一个view的手势无法识别一系列的touches，UIKit将touches发送给view。如果view没有处理touches，UIKit通过响应者链传递。
 
