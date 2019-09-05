@@ -14,7 +14,7 @@ Editing menu messages | The object that you (or UIKit) designate
 ### 特别说明
 * Shake-motion 
    <br/>Motion events related to the accelerometers, gyroscopes, and magnetometer do not follow the responder chain. Instead, Core     Motion delivers those events directly to the designated object.See [Core Motion Framework](https://developer.apple.com/documentation/#//apple_ref/doc/uid/TP40007898-CH10-SW27)
-   运动事件和加速器、陀螺仪、地磁仪相关，不遵循响应者链流程。Core motion 直接向指定的对象发送事件.
+   <br/>运动事件和加速器、陀螺仪、地磁仪相关，不遵循响应者链流程。Core motion 直接向指定的对象发送事件.
 * Remote-control
    <br/>从外设传递过来的事件，see [Handling External Player Events Notifications](https://developer.apple.com/documentation/mediaplayer/handling_external_player_events_notifications)
 * Editing menu messages
