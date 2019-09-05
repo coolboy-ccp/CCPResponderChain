@@ -1,5 +1,5 @@
 # CCPResponderChain
 iOS事件传递
-[Event Type]()
-[Event Deliver]()
-[Responder Chain]()
+<br/>[Event Type]()
+<br/>[Event Deliver]()
+<br/>[Responder Chain]()
