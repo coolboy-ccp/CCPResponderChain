@@ -16,7 +16,7 @@
 7. 若有子视图的hitTest:withEvent:方法返回非空对象（第一响应对象为子视图），则当前视图的hitTest:withEvent:方法就返回此对象，处理结束。
 ---
 ## 特殊事件
-* [motion](https://developer.apple.com/documentation/coremotion)
+* [Motion](https://developer.apple.com/documentation/coremotion)
 <br/>Motion events related to the accelerometers, gyroscopes, and magnetometer do not follow the responder chain. Instead, Core     Motion delivers those events directly to the designated object.See [Core Motion Framework](https://developer.apple.com/documentation/#//apple_ref/doc/uid/TP40007898-CH10-SW27)
 <br/>运动事件和加速器、陀螺仪、地磁仪相关，不遵循响应者链流程。Core motion 直接向指定的对象发送事件.
 * Remote-control
