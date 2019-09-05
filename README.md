@@ -5,3 +5,8 @@ iOS事件传递
 
 Event Type | First Responder
 :-:|:-:
+Touch | The view in which the touch occurred
+Press | The object that focus
+Shake-motion | The object that you (or UIKit) designate
+Remote-control | The object that you (or UIKit) designate
+Editing menu messages | The object that you (or UIKit) designate
