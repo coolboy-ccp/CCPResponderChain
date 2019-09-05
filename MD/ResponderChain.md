@@ -23,5 +23,5 @@ AppDelegate | nil
 ## 事件处理
 1. 如果当前responder不能处理事件，传递给下一个responder
 2. 循环1，直到找到可以处理事件的responder
-3. 到UIApplication还不能处理事件时，丢弃该事件
+3. 到UIApplicationDelegate还不能处理事件时，丢弃该事件
 
