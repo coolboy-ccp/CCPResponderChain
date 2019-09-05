@@ -9,5 +9,5 @@ Shake-motion | The object that you (or UIKit) designate
 Remote-control | The object that you (or UIKit) designate
 Editing menu messages | The object that you (or UIKit) designate
 ## Type 
-![iOS Event Type]()
+![iOS Event Type](https://github.com/coolboy-ccp/CCPResponderChain/blob/master/PIC/iOS事件类型.png)
 
