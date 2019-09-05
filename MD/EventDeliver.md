@@ -5,7 +5,7 @@
 * userInteractionEnabled == false
 * isHidden == true
 * alpha <= 0.01
-* frame超出父视图bounds，且父视图的clipToBounds == true
+* frame超出父视图bounds，且父视图的clipToBounds == false
 ### Hit-Test
 1. UIApplication从事件队列中取出头部事件分发到keyWindow
 2. UIWindow会调用hitTest:withEvent:方法在视图层次结构中找到一个最合适的UIView来处理这个事件；分发的顺序和响应链基本相反：UIApplication -> UIWindow -> Root View -> ··· -> subview：
