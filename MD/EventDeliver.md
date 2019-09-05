@@ -23,7 +23,7 @@
 <br/>从外设传递过来的事件，see [Handling External Player Events Notifications](https://developer.apple.com/documentation/mediaplayer/handling_external_player_events_notifications)
 * Editing menu messages
 <br/>Are not events, but they may still take advantage of responder chain.When the target object of a control is nil, UIKit starts from the target object and traverses the responder chain until it finds an object that implements the appropriate action method.   
-<br/>编辑菜单消息(长按选择某段文字弹出的菜单栏).当指定的target为空的时候，UIKit会顺着响应链寻找合适的target去处理action。这里合适的target是指响应者链上实现了cut(_:), copy(_:), or paste(_:)的responder。
+<br/>编辑菜单消息(长按选择某段文字弹出的菜单栏).当指定的target为空的时候，UIKit会顺着响应链寻找合适的target去处理action。这里合适的target是指响应者链上实现了[cut(_:)](https://developer.apple.com/documentation/uikit/uiresponderstandardeditactions/2354193-cut), [copy(_:)](https://developer.apple.com/documentation/uikit/uiresponderstandardeditactions/2354191-copy), [paste(_:)](https://developer.apple.com/documentation/uikit/uiresponderstandardeditactions/2354189-paste)等的responder。
 * Touch & Press(3D Touch, iOS9.0+)
    * controls
    <br/>Controls communicate directly with their associated target object using action messages. When the user interacts with a control, the control sends an action message to its target object. Action messages are not events, but they may still take advantage of the responder chain. When the target object of a control is nil, UIKit starts from the target object and traverses the responder chain until it finds an object that implements the appropriate action method.
