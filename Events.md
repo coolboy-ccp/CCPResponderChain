@@ -1,8 +1,6 @@
-# CCPResponderChain
-iOS事件传递
+# Event Type 事件类型
 
-## 事件类型及其第一响应者
-
+## Type & First Responder Table
 Event Type | First Responder
 :-:|:-:
 Touch | The view in which the touch occurred
@@ -10,6 +8,8 @@ Press | The object that focus
 Shake-motion | The object that you (or UIKit) designate
 Remote-control | The object that you (or UIKit) designate
 Editing menu messages | The object that you (or UIKit) designate
+## Type 
+![iOS Event Type]()
 
 ### 特别说明
 * Shake-motion 
